@@ -1,0 +1,34 @@
+#myBtn {
+	transition: all 0.5s ;
+	border: 20px solid;
+	display: none;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color:orangered;
+	color: white;
+	cursor: pointer;
+	padding: 20px;
+	border-radius: 100px;
+}
+
+#myBtn:hover {
+	transition: all 0.5s ;
+	border: 10px solid;
+	display: none;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: white;
+	color: black;
+	cursor: pointer;
+	padding: 20px;
+	border-radius: 1000px;
+
+}

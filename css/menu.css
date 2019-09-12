@@ -1,0 +1,33 @@
+@charset "utf-8";
+ul {
+	border: px;
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	overflow: hidden;
+	background-color: red;
+}
+
+li a {
+	border: 10px;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px 0px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color:cornsilk;
+	color: black;
+	font-family: Kanit, sans-serif, "_Layiji MaHaNiYom V 1.2";
+}
+
+.active {
+	background-color: white;
+	color: black;
+}
+
+
+/* CSS Document */
+
